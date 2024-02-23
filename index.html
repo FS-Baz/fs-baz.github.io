@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faisal Bazmool</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icon.jpg" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body id="body">
+    <div class="NavBar" id="NavBar">
+        <div class="Links" id="Links">
+            <a href="#html">Home</a>
+            <a href="#Projects">Projects</a>
+            <a href="#ContactMe">Contact me</a>
+            <label class="switch">
+                <input type="checkbox" onchange="mode(this)">
+                <span class="slider round"></span>
+              </label>
+        </div>
+    </div>
+    <div class="Main" id="main">    
+        <div class="Home" id="Home">
+            <h1 id="h1">Hi I'm Faisal Bazmool</h1>
+            <h2>Web developer</h2>
+            <p>Computer Scince student at Umm Al Qura University intrested in web devolopment, Android software development, and Learning!</p>
+        </div>
+
+        <div class="Projects" id="Projects" >
+            <div id="overlay" >
+                <div class="test" onclick="overlay()"></div>
+                <div id="videoDiv"> <video id="video" controls autoplay src="" ></video></div>
+            </div>
+              
+            <h2 class="ProjectsH2">Projects</h2>
+            <div class="ProjectBox">
+                <h3>Movie and TV show info website</h3>
+                <p class="ProjectsInfo">
+                   created with HTML, CSS, and JavaScript that allows you to find out more about any movie or TV show. You can either enter the name of the show or movie you are interested in, or browse through the most popular ones.
+
+                </p>
+                <div class="buttons">
+                    <input type="button" id="xMoviesVid" onclick="buttonClicked(id)" value="Video">
+                    <input type="button" id="xMoviesSrc" onclick="buttonClicked(id)" value="Source">
+                </div>
+                
+            </div>
+            <div class="ProjectBox">
+                <h3>Quizzey</h3>
+                <p class="ProjectsInfo">
+                    Game app created with JavaFX and MySQL that allows users to log in and take quizzes, admins can add and edit quizzes and student info. This project was made possible by working with an amazing team
+
+                </p>
+                <div class="buttons">
+                    <input type="button" id="quizzeyVid" onclick="buttonClicked(id)" value="Video">
+                    <input type="button" id="quizzeySrc" onclick="buttonClicked(id)" value="Source">
+                </div>
+            </div>
+            <div class="ProjectBox">
+                <h3>Weather</h3>
+                <p class="ProjectsInfo">
+                    Using HTML, CSS, and JavaScript, this web app lets you check the weather conditions of any city in the world.
+                </p>
+                <div class="buttons">
+                    <input type="button" id="weatherVid" onclick="buttonClicked(id)" value="Video">
+                    <input type="button" id="weatherSrc" onclick="buttonClicked(id)" value="Source">
+                </div>
+            </div>
+            <br>
+            <div class="ProjectBox2">
+                <h3>Clock</h3>
+                <p class="ProjectsInfo">
+                    This is a widget that displays an electronic clock with a stylish design, made with JavaFX.
+
+                </p>
+                <div class="buttons">
+                    <input type="button" id="clockVid" onclick="buttonClicked(id)" value="Video">
+                    <input type="button" id="clockSrc" onclick="buttonClicked(id)" value="Source">
+                </div>
+            </div>
+            <div class="ProjectBox2">
+                <h3>Ping pong game</h3>
+                <p class="ProjectsInfo">
+                    This is a simple Java swing application that simulates a Ping pong game.
+
+                </p>
+                <div class="buttons">
+                    <input type="button" id="pingVid" onclick="buttonClicked(id)" value="Video">
+                    <input type="button" id="pingSrc" onclick="buttonClicked(id)" value="Source">
+                </div>
+            </div>
+            <div class="ProjectBox2">
+                <h3>Drawing app</h3>
+                <p class="ProjectsInfo">
+                    This is a simple Java swing application that allows users to draw 
+
+                </p>
+                <div class="buttons">
+                    <input type="button" id="drawVid" onclick="buttonClicked(id)" value="Video">
+                    <input type="button" id="drawSrc" onclick="buttonClicked(id)" value="Source">
+                </div>
+            </div>
+        </div>
+
+        <div class="ContactMe" id="ContactMe">
+            <h2 class="ProjectsH2">Contact me</h2>
+            <div class="ContactBox"><a class="ContactLinks" href="https://twitter.com/FaisalBaz_">X</a></div>
+            <div class="ContactBox"><a class="ContactLinks" href="https://github.com/FS-Baz">GitHub</a></div>
+            <br>
+            <div class="ContactBox"><a class="ContactLinks" href="https://www.linkedin.com/in/faisal-bazmool-5a02ba278/">LinkedIn</a></div>
+            <div class="ContactBox"><a class="ContactLinks">faisalbazmool2001@gmail.com</a></div>
+        </div>
+    </div>
+
+</body>
+</html>

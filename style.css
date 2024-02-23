@@ -1,0 +1,258 @@
+*{
+    font-family: "Comfortaa";
+    font-weight: 800;
+    color: #D04848;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1 , h2 , a , p ,h3{
+    text-shadow: rgba(0, 0, 0, 0.25) 10px 14px 28px, rgba(0, 0, 0, 0.22) 10px 10px 10px; ;
+}
+body{
+    background-color: #FDF7E4;
+    margin: 0;
+    background-image: url("blob-scene-haikei0.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.NavBar{
+    width: 100%;
+    height: 3rem;
+    background-color: #F4BF96;
+    color: #D04848;
+    text-decoration: none;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 14px 28px, rgba(0, 0, 0, 0.22) 10px 10px 10px;
+}
+a{
+    color: #2D4356;
+    text-decoration: none;
+    margin-right: 20px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    width: 30rem;
+    font-size: 18px;
+    
+}
+.Links{
+    position: relative;
+    top: 1rem;
+    margin-right: 20px;
+}
+.Home{
+    margin-top: 12rem;
+    color: #D04848;
+    margin-left: 5rem;
+
+}
+.Projects{
+    margin-top: 20rem;
+    text-align: center;
+
+    
+}
+
+.ContactMe{
+    text-align: center;
+    align-items: center;
+}
+.ProjectBox{
+    height: 290px;
+    width: 290px;
+    display: inline-flex;
+    background-color:#F4BF96;
+    border-radius: 5px;
+    margin: 1rem 10px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 14px 28px, rgba(0, 0, 0, 0.22) 10px 10px 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ProjectBox2{
+    height: 290px;
+    width: 290px;
+    display: inline-flex;
+    background-color:#F4BF96;
+    border-radius: 5px;
+    margin: 1rem 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 14px 28px, rgba(0, 0, 0, 0.22) 10px 10px 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProjectsInfo{
+    text-align: center;
+    width: 280px;
+    height: 270px;
+    word-wrap: break-word;
+    white-space: wrap;
+    margin: 0;
+    font-size: 16px;
+
+}
+
+
+
+input[type=Button]{
+    height: 30px;
+    width: 75px;
+    display: inline-block;
+    background-color:#EAB2A0;
+    color: #2D4356;
+    border-radius: 5px;
+    margin: 0 0 10px 0 ;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 14px 28px, rgba(0, 0, 0, 0.22) 10px 10px 10px;
+    cursor: pointer;
+    border: none;
+}
+h3{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    color: #2D4356;
+}
+
+.ContactBox{
+    height: 50px;
+    width: 280px;
+    display: inline-block;
+    background-color:#F4BF96;
+    border-radius: 5px;
+    margin: 3rem 10px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 14px 28px, rgba(0, 0, 0, 0.22) 10px 10px 10px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 4rem;
+}
+.ContactLinks{
+    position: relative;
+    top: 1rem;
+    left: 0.5rem;
+    text-align: center;
+    
+}
+
+.ProjectsH2{
+    margin-left: 5rem ;
+    text-align: start;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+#video{
+    width: 70%; 
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    bottom: 15%;
+    object-fit: cover ;
+
+}
+
+.test{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* slider styles */
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+    bottom: 3px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f17c7c;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #766dc2;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2D4356;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
