@@ -1,4 +1,5 @@
-console.log("Hi")
+console.log("Hi, I see you ^_^")
+console.log("only cool people can see this message")
 
 
 
@@ -8,33 +9,33 @@ function buttonClicked(id){
     switch (id) {
             case "xMoviesVid":
                 document.getElementById("overlay").style.display = "block"
-                document.getElementById("video").src = "Xmovies.mp4";
+                document.getElementById("video").src = "Videos\\Xmovies.mp4";
                 
             break;
 
             case "quizzeyVid":
                 document.getElementById("overlay").style.display = "block"
-                document.getElementById("video").src = "Quizzey.mp4";
+                document.getElementById("video").src = "Videos\\Quizzey.mp4";
             break;
 
             case "weatherVid":
                 document.getElementById("overlay").style.display = "block"
-                document.getElementById("video").src = "Weather.mp4";
+                document.getElementById("video").src = "Videos\\Weather.mp4";
             break;
 
             case "clockVid":
                 document.getElementById("overlay").style.display = "block"
-                document.getElementById("video").src = "Clock.mp4";
+                document.getElementById("video").src = "Videos\\Clock.mp4";
             break;
 
             case "pingVid":
                 document.getElementById("overlay").style.display = "block"
-                document.getElementById("video").src = "PingPong.mp4";
+                document.getElementById("video").src = "Videos\\PingPong.mp4";
             break;
 
             case "drawVid":
                 document.getElementById("overlay").style.display = "block"
-                document.getElementById("video").src = "Drawing.mp4";
+                document.getElementById("video").src = "Videos\\Drawing.mp4";
             break;
 
             case "xMoviesSrc":
@@ -86,7 +87,7 @@ if (!element.checked){
     })
 
 
-    document.body.style.backgroundImage = " url('blob-scene-haikei0.svg')"
+    document.body.style.backgroundImage = " url('Pictures/blob-scene-haikei0.svg')"
 
     document.querySelectorAll(".ProjectBox").forEach(function(td){
         td.style.backgroundColor = "#F4BF96"
@@ -132,7 +133,7 @@ else{
         td.style.color = "#F4BF96";
     })
 
-    document.body.style.backgroundImage = " url('blob-scene-haikeiDark.svg')"
+    document.body.style.backgroundImage = " url('Pictures/blob-scene-haikeiDark.svg')"
 
 
     document.querySelectorAll(".ProjectBox").forEach(function(td){

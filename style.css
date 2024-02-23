@@ -12,7 +12,7 @@ h1 , h2 , a , p ,h3{
 body{
     background-color: #FDF7E4;
     margin: 0;
-    background-image: url("blob-scene-haikei0.svg");
+    background-image: url("Pictures\\blob-scene-haikei0.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -139,12 +139,18 @@ h3{
     display: inline-block;
     position: relative;
     bottom: 4rem;
+    vertical-align: middle;
 }
 .ContactLinks{
     position: relative;
-    top: 1rem;
+    /* top: 0.3rem; */
     left: 0.5rem;
     text-align: center;
+    
+}
+#email{
+    
+    top: 1rem;
     
 }
 
@@ -255,4 +261,23 @@ h3{
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+
+.contactImg{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+}
+
+#text{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    width: 35rem;
+    font-size: 40px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
   }
